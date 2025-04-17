@@ -1,0 +1,52 @@
+.container{
+    border: 5px solid rgb(185, 15, 69);
+    width: 85vw;
+}
+.header{    
+    padding: 10px;
+    display: flex;
+    border: 3px solid rgb(239, 120, 8);
+}
+.heading{
+    flex: 1;
+    font-size: large;
+    font-style: calc();
+}
+.menu{
+    flex: 3;
+}
+.menu span{
+    margin-left: 20px;
+}
+.content{
+    padding: 10px;
+    display: inline-flex;
+    border: 3px solid chocolate;
+}
+.logo{
+    flex: 2;
+}
+.details{
+    flex: 2;
+    font-size: inherit;
+}
+.footer{
+    padding: 10px;
+    border: 3px solid tomato;
+}
+.s_footer{
+    text-align: right;
+    margin-right: 50px;
+}
+@media (max-width:800px){
+    .menu{
+        display: none;
+    }
+    .content{
+        display: block;
+    }
+    .s_footer{
+        text-align: center;
+        margin-right: 0px;
+    }
+}
